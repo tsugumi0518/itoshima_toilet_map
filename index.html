@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>糸島釣り場トイレマップ | ITOSHIMA FISHING SPOT TOILET MAP</title>
+	</head>
+	<body>
+		<div class="bg_area">
+			<div class="hero_area"> 
+				<header>
+					<h1>
+						<span class="hero_area_title_e">ITOSHIMA<br>FISHING SPOT<br>TOILET MAP</span>
+						<span class="hero_area_title_j">糸島釣り場<br>トイレマップ</span>
+					</h1>
+				</header>
+				<div class="hero_img">
+					<img src="images/hero@2x.png" alt="">
+				</div><!--hero_img end-->
+			</div><!--hero_area end-->
+		</div><!--bg_area end-->
+
+		<main>
+			<section class="section description"><!-- .re-search end -->
+				<div class="desc">
+					<h2>釣りの楽しみを途切れさせない<br>
+						安心のトイレ情報サイト</h2>
+					<p>
+						釣り場近くにトイレがない！<br>
+						そんなお悩みを解決する釣り場トイレマップサイトです。<br>
+						あなたの場所から一番近いトイレをすぐに見つけられます。
+					</p>
+					<div class="img_toilet">
+						<img src="images/Group 173@2x.png" alt="トイレマークの画像">
+					</div><!-- img_toilet end -->
+				</div><!-- desc end -->
+			</section>
+
+			<section id="serch_area" class="section sec02">
+				<div class="adjust">
+					<h2 class="title">Let's TRY!</h2>
+					<div class="form_container">
+						<div class="form_tab">
+							<div class="form_tab_item area active">
+								<h3 class="sub_title">エリアで探す</h3>
+							</div>
+							<div class="form_tab_item fishingspot">
+								<h3 class="sub_title">漁港で探す</h3>
+							</div>
+						</div>
+
+						<div class="area form_wrap"> 
+							<form class="area_form" action=""></form>
+								<div class="map_container">
+									<div class="img">
+										<img class="active" src="images/area_whole.png" alt="">
+									</div>
+									<div class="area_1">
+										<input id="area_1" type="checkbox" name="area_id[]" value="a100">
+										<label for="area_1"></label>
+									</div>
+									<div class="area_2">
+										<input id="area_2" type="checkbox" name="area_id[]" value="a101">
+										<label for="area_2"></label>
+									</div>
+									<div class="area_3">
+										<input id="area_3" type="checkbox" name="area_id[]" value="a102">
+										<label for="area_3"></label>
+									</div>
+								</div>
+								<div class="more_serch_container">
+									<div class="more_serch_wrap">
+										<h3 class="sub_title">さらに絞り込む</h3>
+										<div class="more_serch_item">
+											<label for="institution">施設で絞り込む</label>
+											<div class="check_wrap">
+												<div class="input_wrap">
+													<input type="checkbox" id="institution" name="institution[]" value="convenience_store"><span>コンビニ</span>
+												</div>
+												<div class="input_wrap">
+													<input type="checkbox" id="institution" name="institution[]" value="public_toilet"><span>公衆トイレ</span>
+												</div>
+												<div class="input_wrap">
+													<input type="checkbox" id="institution" name="institution[]" value="fishing_shop"><span>釣り具店</span>
+												</div>
+											</div>
+										</div>
+										<div class="more_serch_item">
+											<label for="requirement">条件で絞り込む</label>
+											<div class="check_wrap">
+												<div class="input_wrap">
+													<input type="checkbox" id="requirement" name="requirement[]" value="24hours"><span>24時間営業</span>
+												</div>
+												<div class="input_wrap">
+													<input type="checkbox" id="requirement" name="requirement[]" value="parking"><span>駐車場あり</span>
+												</div>
+											</div>
+										</div>
+										<div class="more_serch_item">
+											<label for="distance">距離で絞り込む</label>
+											<div class="check_wrap">
+												<div class="input_wrap">
+													<input type="checkbox" id="distance" name="distance[]" value="0.5km"><span>500m</span>
+												</div>
+												<div class="input_wrap">
+													<input type="checkbox" id="distance" name="distance[]" value="1km"><span>1km</span>
+												</div>
+												<div class="input_wrap">
+													<input type="checkbox" id="distance" name="distance[]" value="3km"><span>3km</span>
+												</div>
+											</div>
+										</div>
+										<input type="submit" name="検索" class="btn">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<div class="re_search">
+			<a href="#serch_area">
+			<p><div class="arrow_img"></div>もう一度<br>
+			検索する</p>
+			</a>
+		</div><!-- re_search end -->
+
+
+		<footer>
+			<p class="footer_logo">
+				<span>糸島釣り場トイレマップ</span>
+				ITOSHIMA FISHING SPOT TOILET MAP
+			</p>
+			<small class="copyright">
+				Copyright &copy; 2023 TEAM B All Rights Reserved.
+			</small>
+		</footer><!-- footer end -->
+	</body>
+</html>
